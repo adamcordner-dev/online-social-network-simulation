@@ -31,7 +31,7 @@ Located in the top-right of the interface:
 - **Step** — increments the simulation one frame 
 - **Reset** — resets the simulation and generates a new network  
 
-![Simulation UI overview](docs/ui-overview.png)
+![Simulation UI overview](docs/ui-overview.PNG)
 
 ---
 
@@ -47,7 +47,7 @@ The left-hand panel exposes parameters that influence network structure and agen
 
 Each parameter includes an in-UI description explaining its effect on the simulation.
 
-![OSNModel simulation interface](docs/parameters.png)
+![OSNModel simulation interface](docs/parameters.PNG)
 
 ---
 
@@ -75,7 +75,7 @@ These values update dynamically as the simulation progresses.
 ### Time-Series Chart
 A line chart tracks how agent states evolve over time, making it possible to observe trends such as rapid information spread or early refusal.
 
-![OSNModel simulation interface](docs/state-over-time.png)
+![OSNModel simulation interface](docs/state-over-time.PNG)
 
 ---
 
@@ -86,7 +86,7 @@ Two bar charts display:
 
 These provide additional context for analysing how demographic factors influence information spread.
 
-![OSNModel simulation interface](docs/demographics.png)
+![OSNModel simulation interface](docs/demographics.PNG)
 
 ---
 
@@ -138,7 +138,7 @@ For compatibility and reproducibility, dependencies are pinned to:
 
 Simulation results can be exported to CSV files for further analysis or external visualisation.
 
-![OSNModel simulation interface](docs/output.png)
+![OSNModel simulation interface](docs/output.PNG)
 
 ---
 
