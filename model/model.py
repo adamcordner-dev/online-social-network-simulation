@@ -8,6 +8,7 @@ from mesa.datacollection import DataCollector
 from model.directed_network_space import DirectedNetworkSpace
 import datetime
 import csv
+import os
 
 
 class State(Enum):
@@ -230,6 +231,7 @@ class SocialMediaNetwork(Model):
         self.output_state()
 
     def output_network(self):
+        os.makedirs(os.path.dirname(self.output_file), exist_ok=True)
         with open(self.output_file, 'w', newline='') as file:
             # Open a new file in write mode with the name generated when creating the model
             writer = csv.writer(file)

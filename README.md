@@ -132,11 +132,13 @@ For compatibility and reproducibility, dependencies are pinned to:
 
 - Mesa < 2 (see `requirements.txt`)
 
+Mesa may print a deprecation warning regarding `UserSettableParameter`; this does not affect running the project.
+
 ---
 
 ## Output
 
-Simulation results can be exported to CSV files for further analysis or external visualisation.
+Simulation results can be exported to CSV files for further analysis or external visualisation. The model writes CSV output to an output/ directory. This directory is created automatically when the model runs.
 
 ![OSNModel simulation interface](docs/output.png)
 
